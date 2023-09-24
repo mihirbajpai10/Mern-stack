@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Student Admission Form</h2>
+    <hr>
+
+    <form>
+        
+        <label>Full Name</label>
+        <input type="text">
+        <br><br>
+        
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter Email Address" >
+        <br><br>
+
+        <label>Date of Birth</label>
+        <input type="date">
+        
+        <br><br>
+
+        <label>Gender</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+
+        <br><br>
+
+        <label>Select your City</label>
+        <select>
+            <option>Lucknow</option>
+            <option>Kanpur</option>
+            <option>Ballia</option>
+            <option>Gorakhpur</option>
+        </select>
+
+        <br><br>
+
+        <label>Select Intermediate Board</label>
+        <input type="text" list="board">
+
+        <datalist id="board">
+            <option>UP Board</option>
+            <option>CBSE Board</option>
+            <option>ICSE Board</option>
+        </datalist>
+
+        <br><br>
+        <input type="checkbox"> Accept Terms & Conditions
+
+        <details>
+
+            <summary>View Terms & Conditions</summary>
+
+            <p>
+                Lorem ipsum dolor <mark> sit amet consectetur </mark> adipisicing elit. Ipsa architecto nemo ea, eos maxime, voluptate autem dicta ullam dolore quibusdam hic molestias facilis totam fugiat nesciunt sequi provident. Aspernatur, asperiores?
+            </p>
+        </details>
+
+        <br><br>
+
+        <button>Submit</button>
+
+    </form>
+
+</body>
+</html>
