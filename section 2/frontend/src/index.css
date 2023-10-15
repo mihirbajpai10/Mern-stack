@@ -1,0 +1,194 @@
+.mycard{
+    /* border: 2px solid red; */
+    width: 25%;
+    height: 55vh;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 2px 3px 5px 1px #00000072;
+    box-sizing: border-box;
+    background-color: white;
+    /* font-size: 20px; */
+    
+}
+
+.page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: aquamarine;
+    
+    background-image: url('https://img.freepik.com/premium-vector/abstract-minimal-hand-drawn-shape-background-with-palm-tree-leaves_545556-637.jpg?w=2000');
+    background-size: cover;
+}
+
+.form-title{
+    text-align: center;
+    font-size: 20px;
+}
+
+.myinput{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.mybtn{
+    padding: 10px;
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 3px 3px 1px #0000007a;
+    transition-duration: 0.2s;
+    margin-bottom: 20px;
+}
+
+.mybtn:hover{
+    box-shadow: 1px 1px 1px 1px #0000007a;
+}
+
+/* .link{
+    font-size: 15px;
+    
+    
+    
+} */
+
+
+.mycard2{
+    /* border: 2px solid red; */
+    width: 25%;
+    height: 60vh;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 2px 3px 5px 1px #00000072;
+    box-sizing: border-box;
+    background-color: white;
+    /* font-size: 20px; */
+}
+
+.page2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: aquamarine;
+    
+    background-image: url('https://img.freepik.com/premium-vector/abstract-minimal-hand-drawn-shape-background-with-palm-tree-leaves_545556-637.jpg?w=2000');
+    background-size: cover;
+}
+
+.form-title2{
+    text-align: center;
+}
+
+.myinput2{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.mybtn2{
+    padding: 10px;
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 3px 3px 1px #0000007a;
+    transition-duration: 0.2s;
+}
+
+.mybtn2:hover{
+    box-shadow: 1px 1px 1px 1px #0000007a;
+}
+
+
+
+:root{
+    --theme-color : #add8e6;
+}
+* {
+    font-family: Montserrat;
+}
+
+.contact-card {
+    height: 80vh;
+    border: 2px solid black;
+    margin: 100px;
+    border-radius: 20px;
+    padding: 10px;
+
+    display: flex;
+
+    overflow: hidden;
+}
+
+/* .contact-info, .contact-form {
+    height: 100%;
+} */
+
+.contact-info {
+    background-color: #add8e6;
+    width: 30%;
+    padding: 50px;
+    color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+
+.contact-form {
+    /* background-color: lightgoldenrodyellow; */
+    width: 70%;
+    padding: 50px;
+    color: grey;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.form-group {
+    display: flex;
+    gap: 10%;
+}
+
+.form-input{
+    /* background-color: black; */
+    width: 100%;
+    margin-bottom: 10px ;
+}
+
+.my-input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    margin-bottom: 20px ;
+}
+
+.my-btn{
+    padding: 20px 25px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    background-color: #add8e6;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+}
